@@ -1,4 +1,7 @@
-# test coverage for  [emailjs (v1.0.8)](https://github.com/eleith/emailjs#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-emailjs.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-emailjs) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-emailjs.svg)](https://travis-ci.org/npmtest/node-npmtest-emailjs)
+# npmtest-emailjs
+
+#### basic test coverage for  [emailjs (v1.0.8)](https://github.com/eleith/emailjs#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-emailjs.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-emailjs) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-emailjs.svg)](https://travis-ci.org/npmtest/node-npmtest-emailjs)
+
 #### send text/html emails and attachments (files, streams and strings) from node.js to any smtp server
 
 [![NPM](https://nodei.co/npm/emailjs.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/emailjs)
@@ -95,7 +98,8 @@
     "scripts": {
         "test": "mocha -R spec -t 5000"
     },
-    "version": "1.0.8"
+    "version": "1.0.8",
+    "bin": {}
 }
 ```
 
